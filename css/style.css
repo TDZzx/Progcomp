@@ -4,7 +4,7 @@ body {
     justify-content: center; /* centraliza na horizontal */
     height: 100vh; /* altura da página é todo o conteúdo dela */
     align-items: center; /* centraliza na vertical */
-    background-color: blueviolet;
+    background-color: blue;
 }
 .container {
     background-color: white;
