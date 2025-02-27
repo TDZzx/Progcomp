@@ -24,12 +24,13 @@ button{
 }   
 /*criar ukm efeito de passar o mouse no botão*/
 button:hover{
-    background-color: orangered;
+    background-color: rgb(51, 51, 255);
+    color:white
 }
 .imagem{
 border-radius: 50%;
-width: 150px; /*largura*/
-height: 150px;/*altura*/
+width: 165px; /*largura*/
+height: 165px;/*altura*/
 margin-bottom: 10px;/*espaçamento externo*/
 
                 
