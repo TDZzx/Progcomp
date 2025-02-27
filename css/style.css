@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif; /* fonte */
+    display: flex; /* usa o FlexBox para exibir o conteúdo */
+    justify-content: center; /* centraliza na horizontal */
+    height: 100vh; /* altura da página é todo o conteúdo dela */
+    align-items: center; /* centraliza na vertical */
+    background-color: blueviolet;
+}
+.container {
+    background-color: white;
+    padding: 20px; /* espaçamento interno */
+    border-radius: 50px;/*bordas arredondadas*/
+    box-shadow: 4px 6px; /*sombreamento 2px (horizontal) 4px(vertical)*/
+    text-align: center;/* centraliza o texto*/
+}
+button{
+    background-color: orange;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 1px 1px;
+    padding: 4px; /*epaçamento interno*/
+    cursor: pointer;/*mouse vira um ponteiro*/
+    
+}   
+/*criar ukm efeito de passar o mouse no botão*/
+button:hover{
+    background-color: orangered;
+}
+.imagem{
+border-radius: 50%;
+width: 150px; /*largura*/
+height: 150px;/*altura*/
+margin-bottom: 10px;/*espaçamento externo*/
+
+                
+}
