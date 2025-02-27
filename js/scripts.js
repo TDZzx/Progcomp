@@ -1,4 +1,4 @@
 //função chamada pelo HTML
 function mensagem(){
-    alert("Agora vc está me seguindo")
+    alert("Agora vc está me seguindo !!!)
 }
