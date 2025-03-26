@@ -100,3 +100,12 @@ border-radius: 15px;
 .cverde{
    color: green;
 }
+.claro{
+   background-color: rgb(164, 196, 197);
+}
+.campos{
+   margin-bottom: 20px;
+}
+i{
+   margin-left: 20px;
+}
