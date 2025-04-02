@@ -29,6 +29,16 @@
     <div class="container"> <h2>Calculadoras</h2>
         <form>
             <div class="campos">
+                <label>Selecione a cor da equipe</label>
+                <select id="equipe">
+                    <option value="Laranja"> Laranja</option>
+                    <option value="Preta">Preta</option>
+                    <option value="Roxa">Roxa</option>
+                    <option value="Verde">Verde</option>
+                    <option value="Vermelha">Vermelha</option>
+                </select>
+            </div>
+            <div class="campos">
                 <label>Mascote do Time</label>
                 <input type="number" id="mascote"/>
                 </div>
@@ -41,12 +51,36 @@
                     <input type="number" id="leite">
                 </div>
                 <div class="campos">
-                    <label> Kit alimentação (avulso)</label>
-                    <input type="number" id="kitavulso">
+                    <label> Kit alimentação</label>
+                    <input type="number" id="kit">
                 </div>
                 <div class="campos">
-                    <label> Suplemento (avulso)</label>
-                    <input type="number" id="suplementoavulso">
+                    <label> Suplemento</label>
+                    <input type="number" id="suplemento">
+                </div>
+                <div class="campos">
+                    <label>  Pacote de Arroz (5kg)</label>
+                    <input type="number" id="arroz5kg">
+                </div>
+                <div class="campos">
+                    <label> Pacote de Arroz (5kg)</label>
+                    <input type="number" id="arroz1kg">
+                </div>
+                <div class="campos">
+                    <label>  Pacote de Feijão (2kg)</label>
+                    <input type="number" id="feijao2kg">
+                </div>
+                <div class="campos">
+                    <label>  Pacote de Feijão (1kg)</label>
+                    <input type="number" id="feijao1kg">
+                </div>
+                <div class="campos">
+                    <label> Pacote de Macarrão (400g)</label>
+                    <input type="number" id="macarrao">
+                </div>
+                <div class="campos">
+                    <label> Óleo (900ml)</label>
+                    <input type="number" id="oleo">
                 </div>
                 <div class="campos">
                     <button type="button" onclick="calcular()">Calcular</button>
