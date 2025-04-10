@@ -82,7 +82,7 @@ border-radius: 15px;
    background-color: red;
 }
 .azul{
-   background-color: navy;
+   background-color: rgb(3, 3, 80);
    color: white;
 }
 .text{
@@ -101,11 +101,14 @@ border-radius: 15px;
    color: green;
 }
 .claro{
-   background-color: rgb(164, 196, 197);
+   background-color: rgb(196, 217, 245);
 }
 .campos{
    margin-bottom: 20px;
 }
 i{
    margin-left: 20px;
+}
+.amarelo{
+   background-color: rgb(235, 235, 144);
 }
